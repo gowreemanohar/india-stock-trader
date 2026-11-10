@@ -1,0 +1,11 @@
+{
+  "upstream": "https://github.com/Jakeschincariol/day-trader-skill",
+  "local_source": "trader-scanner/scan.py (relative to the original skill installation root)",
+  "source_sha256": "2cc0d99a4f21d2b8a28b6917d527ca17e3a71dea0951365d5f82c6b5afcac913",
+  "copied_functions": [
+    "rsi",
+    "find_setups"
+  ],
+  "created_date": "2026-11-01",
+  "custom_projects_used": false
+}

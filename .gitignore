@@ -1,0 +1,34 @@
+# Local research outputs, downloaded market data and private inputs
+/runs/
+/models/
+/data/
+/local/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+account*.json
+holdings*.json
+portfolio*.json
+credentials*.json
+limits*.json
+quotes*.json
+ledger*.json
+
+# Historical validation records for superseded implementations
+/references/validation.json
+/references/validation-v3.json
+/references/validation-after-model-removal.json
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

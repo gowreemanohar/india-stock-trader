@@ -1,0 +1,18 @@
+{
+  "date_ist": "2026-11-01",
+  "scope": "Indian adaptation of eleven installed original workflows; no trained model or added strategy/evaluation engine",
+  "tests": {"run": 32, "passed": 32, "failed": 0},
+  "direct_original_comparison": {
+    "monte_carlo": "Entire result equality for 12, 72 and 78 session bars, seeds 7 and 19",
+    "compared_outputs": ["target/stop/neither/green probabilities", "average R", "percentiles", "five-band fan", "160 sample paths", "histogram"],
+    "history": "Confirmation-close entries and target/stop/close/green counts and average R match original",
+    "integration": "10000-path offline Time Machine with automatic historical replay passed"
+  },
+  "removed_nonoriginal_changes": ["trained model (previously removed)", "walk-forward scoring", "holdout reports", "extra drawdown/profit-factor/confidence metrics", "next-open historical entry", "adverse-gap fill model", "fee/slippage model", "paper account mutation commands", "flat-series RSI modification"],
+  "restored_original_capabilities": ["original random draw order and statistical outputs", "original risk/reward verdict and notes", "automatic historical rule replay", "Q4 derivation", "latest financial revisions", "optional order-count check", "custom alert rule addition"],
+  "market_substitutions": ["NSE/BSE equity identity and data sources", "INR and Indian tick sizes", "IST and verified date/security-specific sessions", "Indian primary financial/disclosure formats"],
+  "source_runtime_dependency": false,
+  "custom_projects_accessed": false,
+  "broker_execution_enabled": false,
+  "limitations": ["Installed original broker show/log safety restriction retained", "Indian source schemas and calendars require verified inputs", "Original simulation ignores fees/slippage and assumes stop fill at stop even on gaps", "No profitable-edge or comprehensive security-audit claim"]
+}
